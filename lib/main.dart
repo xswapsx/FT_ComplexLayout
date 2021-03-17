@@ -109,9 +109,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Flutter layout demo'),
-        // ),
+        appBar: AppBar(
+          title: Text('Flutter layout demo'),
+        ),
         body: ListView(
           children: [
             Image.asset(
