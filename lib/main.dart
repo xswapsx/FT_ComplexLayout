@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           ),
           /*3*/
           Icon(
-            Icons.star,
+            Icons.favorite,
             color: Colors.red[500],
           ),
           Text('41'),
